@@ -10,7 +10,7 @@ export async function loadAllDatasetsOnce() {
   try {
     const quizzes = {};
     const datasets = {};
-  const index = await fetch('QUIZZ/index.json').then(r => r.json());
+  const index = await fetch('QUIZZ/quizz-list.json').then(r => r.json());
     for (const quiz of index.quizzes) {
       quizzes[quiz.id] = {
         id: quiz.id,
