@@ -1,0 +1,92 @@
+{
+    "questionnaire": [
+        {
+            "id": 1,
+            "statement": "Which scenarios are best suited for using SAP's Cloud Application Programming Model (CAP) within SAP BTP?",
+            "guidelines": "There are 2 correct answers to this question.",
+            "image_ids": [],
+            "answers": [
+                {
+                    "statement": "Developing multi-tenant SaaS applications",
+                    "is_correct": true
+                },
+                {
+                    "statement": "Creating extensions for SAP S/4HANA",
+                    "is_correct": true
+                },
+                {
+                    "statement": "Implementing real-time analytics",
+                    "is_correct": false
+                },
+                {
+                    "statement": "Building AI-powered applications",
+                    "is_correct": false
+                }
+            ],
+            "explanation": "The SAP Cloud Application Programming Model (CAP) is best suited for scenarios that require rapid development of scalable, enterprise-grade applications on SAP BTP. Correct answers:\n- 'Developing multi-tenant SaaS applications': CAP supports multi-tenancy natively, allowing developers to build SaaS solutions that can serve multiple customers with isolated data and configurations. This is achieved through CAP’s built-in tenant-aware services and deployment models.\n- 'Creating extensions for SAP S/4HANA': CAP is ideal for side-by-side extensions of SAP S/4HANA, enabling developers to build loosely coupled applications that interact with core systems via APIs and events, without modifying the core.\nIncorrect answers:\n- 'Implementing real-time analytics': While CAP can expose data services, it is not optimized for real-time analytics, which typically require specialized tools like SAP HANA or SAP Analytics Cloud.\n- 'Building AI-powered applications': CAP does not provide native AI capabilities. AI scenarios are better handled using SAP AI Core or integrating external AI services.\n💡 Memory tip: CAP = Cloud-native + Extensions + Multi-tenancy. Think of CAP as the 'framework for enterprise-grade apps on SAP BTP'.",
+            "Source_URL": [
+                "https://learning.sap.com/learning-journeys/build-side-by-side-extensions-on-sap-btp/exploring-the-sap-cloud-application-programming-model_f1f3579e-4b01-4cb2-8a68-413a151ddb77",
+                "https://learning.sap.com/learning-journeys/developing-an-sap-fiori-elements-app-based-on-a-cap-odata-v4-service/using-the-sap-cloud-application-programming-model-cap-_ae6a9177-5c6f-44dd-9a55-05c2cd574412"
+            ]
+        },
+        {
+            "id": 2,
+            "statement": "What is the first phase of the SAP Data and Analytics Advisory Methodology?",
+            "guidelines": "Please choose the correct answer.",
+            "image_ids": [],
+            "answers": [
+                {
+                    "statement": "Data governance and roadmaps",
+                    "is_correct": false
+                },
+                {
+                    "statement": "Business outcomes and solution requirements",
+                    "is_correct": false
+                },
+                {
+                    "statement": "Capability map and solution architecture",
+                    "is_correct": false
+                },
+                {
+                    "statement": "Scoping and baseline analysis",
+                    "is_correct": true
+                }
+            ],
+            "explanation": "The first phase of the SAP Data and Analytics Advisory Methodology is 'Scoping and baseline analysis'.\nCorrect answer:\n- 'Scoping and baseline analysis': This phase involves understanding the current state of the organization’s data landscape, identifying pain points, and defining the scope of the project. It sets the foundation for all subsequent phases by establishing the context and objectives.\nIncorrect answers:\n- 'Business outcomes and solution requirements': This is Phase II, where desired outcomes and requirements are defined based on the baseline.\n- 'Capability map and solution architecture': This is Phase III, focused on designing the target architecture.\n- 'Data governance and roadmaps': This is Phase IV, which addresses governance and implementation planning.\n💡 Memory tip: Think of the methodology as a journey: Phase I = Where are we now? Phase II = Where do we want to go? Phase III = How do we get there? Phase IV = How do we manage the journey?",
+            "Source_URL": [
+                "https://learning.sap.com/learning-journeys/becoming-an-sap-btp-solution-architect/explaining-the-application-sap-data-and-analytics-advisory-methodology"
+            ]
+        },
+        {
+            "id": 3,
+            "statement": "According to the attached diagram, which SAP Integration Suite capability can a customer use to monetize their APIs?",
+            "guidelines": "There are 2 correct answers to this question.",
+            "image_ids": [
+                "images/img_00001.bmp"
+            ],
+            "answers": [
+                {
+                    "statement": "SAP API Business Hub Enterprise",
+                    "is_correct": true
+                },
+                {
+                    "statement": "SAP Business Accelerator Hub",
+                    "is_correct": false
+                },
+                {
+                    "statement": "SAP Market Rates Management, Bring Your Own Rates data option",
+                    "is_correct": false
+                },
+                {
+                    "statement": "SAP API Management",
+                    "is_correct": true
+                }
+            ],
+            "explanation": "To monetize APIs using SAP Integration Suite, customers can use 'SAP API Management' and 'SAP API Business Hub Enterprise'.\nCorrect answers:\n- 'SAP API Management': This capability allows organizations to create, publish, monitor, and monetize APIs. It includes features like API products, rate plans, and usage analytics, which are essential for monetization.\n- 'SAP API Business Hub Enterprise': This is the enterprise-grade version of SAP’s API portal, enabling internal and external API exposure, subscription management, and monetization features.\nIncorrect answers:\n- 'SAP Business Accelerator Hub': This is a public-facing catalog of SAP content but does not support monetization features.\n- 'SAP Market Rates Management, Bring Your Own Rates data option': This is a financial service for managing market rates and is unrelated to API monetization.\n💡 Memory tip: Monetization = Management + Marketplace. Look for 'API Management' and 'Business Hub Enterprise' when thinking of monetizing APIs.",
+            "Source_URL": [
+                "https://learning.sap.com/learning-journeys/administering-sap-integration-suite/understanding-capabilities",
+                "https://learning.sap.com/videos/demonstrating-sap-api-management-s-features-and-functionalities-in-sap-integration-suite"
+            ]
+        }
+    ]
+}

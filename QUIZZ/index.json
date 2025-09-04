@@ -1,0 +1,16 @@
+{
+  "quizzes": [
+    {
+      "id": "SAP BTP - test 3Q",
+      "name": "SAP BTP - test 3Q",
+      "fr": "QUIZZ/SAP BTP - test 3Q/Quizz-fr.json",
+      "en": "QUIZZ/SAP BTP - test 3Q/Quizz-en.json"
+    },
+    {
+      "id": "SAP BTP - P_BTPA - 08_2024",
+      "name": "SAP BTP - P_BTPA - 08_2024",
+      "fr": "QUIZZ/SAP BTP - P_BTPA - 08_2024/Quizz-fr.json",
+      "en": "QUIZZ/SAP BTP - P_BTPA - 08_2024/Quizz-en.json"
+    }
+  ]
+}

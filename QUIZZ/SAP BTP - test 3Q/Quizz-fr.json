@@ -1,0 +1,93 @@
+{
+  "questionnaire": [
+    {
+      "id": 1,
+      "statement": "Quels scénarios sont les plus adaptés à l'utilisation de CAP (Cloud Application Programming Model) dans SAP BTP ?",
+      "guidelines": "Il y a 2 bonnes réponses.",
+      "image_ids": [],
+      "answers": [
+        {
+          "statement": "Développer des applications SaaS multi‑tenant",
+          "is_correct": true
+        },
+        {
+          "statement": "Créer des extensions pour SAP S/4HANA",
+          "is_correct": true
+        },
+        {
+          "statement": "Mettre en œuvre de l’analytics temps réel",
+          "is_correct": false
+        },
+        {
+          "statement": "Construire des applications d’IA",
+          "is_correct": false
+        }
+      ],
+      "explanation": "texte très long",
+      "Source_URL": [
+        "https://example.com/url1",
+        "https://example.com/url2"
+      ]
+    },
+    {
+      "id": 2,
+      "statement": "Quelle est la première phase de la méthodologie SAP Data and Analytics Advisory ?",
+      "guidelines": "Choisissez la bonne réponse.",
+      "image_ids": [],
+      "answers": [
+        {
+          "statement": "Gouvernance des données et feuilles de route",
+          "is_correct": false
+        },
+        {
+          "statement": "Résultats métiers et exigence solution",
+          "is_correct": false
+        },
+        {
+          "statement": "Carte de capacités et architecture",
+          "is_correct": false
+        },
+        {
+          "statement": "Cadrage et analyse de référence",
+          "is_correct": true
+        }
+      ],
+      "explanation": "texte très long",
+      "Source_URL": [
+        "https://example.com/url3"
+      ]
+    },
+    {
+      "id": 3,
+      "statement": "D’après le schéma joint, quelle capacité de SAP Integration Suite permet de monétiser des APIs ?",
+      "guidelines": "Il y a 2 bonnes réponses.",
+      "image_ids": [
+        "images/img_00001.bmp"
+      ],
+      "answers": [
+        {
+          "statement": "SAP API Business Hub Enterprise",
+          "is_correct": true
+        },
+        {
+          "statement": "SAP Business Accelerator Hub",
+          "is_correct": false
+        },
+        {
+          "statement": "SAP Market Rates Management, option BYOR",
+          "is_correct": false
+        },
+        {
+          "statement": "SAP API Management",
+          "is_correct": true
+        }
+      ],
+      "explanation": "texte très long",
+      "Source_URL": [
+        "https://example.com/url3",
+        "https://example.com/url4",
+        "https://example.com/url5"
+      ]
+    }
+  ]
+}
